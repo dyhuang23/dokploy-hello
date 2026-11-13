@@ -20,7 +20,7 @@ code{background:#f2f2f2;padding:2px 6px;border-radius:4px}</style></head>
   <h1>${GREETING}</h1>
   <p>Container: <code>${os.hostname()}</code></p>
   <p>Started: <code>${startedAt}</code></p>
-  <p>Version: <code>v1</code></p>
+  <p>Version: <code>v2</code></p>
 </body></html>`);
   })
   .listen(PORT, () => console.log(`Listening on port ${PORT}`));
